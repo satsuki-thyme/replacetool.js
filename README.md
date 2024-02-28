@@ -17,4 +17,4 @@ replace() で置換します。
 - 正規表現にマッチさせて置換します
 
 ## CDN
-
+https://cdn.jsdelivr.net/gh/satsuki-thyme/replacetool.js@main/replacetool.min.js
