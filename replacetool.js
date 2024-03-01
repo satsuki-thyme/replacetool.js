@@ -26,8 +26,8 @@ function replacetool(recipe, source) {
     function fn() {
       w = w.replace(
         new RegExp(
-          rcp[i][0].replace(/^(\/)?(.*?)(\/|(?<!\\)\/[a-zA-Z]*)?$/, `$2`),
-          rcp[i][0].replace(/^(\/)?(.*?)(\/|(?<!\\)\/[a-zA-Z]*)?$/, `$3`)
+          rcp[i][0].replace(/^(\/)?(.*?)(\/|(?<!\\)\/([a-zA-Z]*))?$/, `$2`),
+          rcp[i][0].replace(/^(\/)?(.*?)(\/|(?<!\\)\/([a-zA-Z]*))?$/, `$4`)
         ),
         rcp[i][1]
       )
